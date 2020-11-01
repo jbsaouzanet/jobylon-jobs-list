@@ -1,0 +1,35 @@
+.content {
+    padding: 0 16px;
+}
+
+.mat-card {
+    height: 210px;
+    margin: 10px;
+    flex-direction: column;
+    display: flex;
+}
+
+.mat-card .mat-card-content{
+  flex-grow: 1;
+  overflow: auto;
+}
+
+.mat-card .mat-card-actions {
+    justify-content: center;
+    display: flex;
+}
+
+
+
+.input-link {
+    justify-content: center;
+    display: flex;
+    margin: 50px;
+}
+.input-link button {
+    background-color: #4992FC;
+}
+.input-link input {
+    margin: 0px 5px 0 0px;
+    width: 300px;
+}

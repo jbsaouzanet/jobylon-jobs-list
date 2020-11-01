@@ -1,0 +1,11 @@
+<h2 mat-dialog-title>{{data.title}}</h2> 
+
+<mat-dialog-content class="mat-typography">
+    <div innerHtml="{{data.descr}}"></div>
+    <div innerHtml="{{data.skills}}"></div>
+    <div>Language : {{data.language}}</div>
+</mat-dialog-content>
+<mat-dialog-actions align="end">
+        <button mat-button mat-dialog-close>Close</button>
+        <a href="{{data.urls.ad}}" mat-raised-button color="primary" target="_blank">Apply</a>
+</mat-dialog-actions>
