@@ -42,6 +42,7 @@ sudo npm install npm@latest -g
 sudo npm install -g @angular/cli
 
 4. Clone the https://github.com/jbsaouzanet/jobylon-jobs-list/tree/develop branch
+/!\ The main branch is made for the release on GitHub page
 
 5. Run The app 
 
