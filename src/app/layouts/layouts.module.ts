@@ -11,18 +11,23 @@ import { MatDialogModule } from '@angular/material/dialog';
 import { DialogContent } from './dialog-content/dialog-content.component';
 import { FormsModule } from '@angular/forms';
 import { MaterialElevationDirective } from './material-elevation-directive/material-elevation.directive';
+import { AppComponent } from '../app.component';
+import { JobComponent } from './job/job.component';
+
 @NgModule({
     declarations: [
         HeaderComponent, 
         MainComponent,
         DialogContent,
-        MaterialElevationDirective
+        MaterialElevationDirective,
+        JobComponent
     ],
     exports: [
       HeaderComponent,
       MainComponent,
       DialogContent,
-      MaterialElevationDirective
+      MaterialElevationDirective,
+      JobComponent
     ],
     imports: [
         CommonModule,
@@ -39,6 +44,6 @@ import { MaterialElevationDirective } from './material-elevation-directive/mater
     ],
     providers: [],
     entryComponents:[DialogContent],
-    bootstrap: []
+    bootstrap: [AppComponent]
 })
 export class LayoutsModule { }
