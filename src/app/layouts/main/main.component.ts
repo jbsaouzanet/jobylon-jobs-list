@@ -19,7 +19,7 @@ export class MainComponent  implements  OnInit {
     constructor (private jobListService:JobListService, public dialog: MatDialog) {}
   
     ngOnInit() {
-         this.url = "https://feed.jobylon.com/feeds/7d7e6fd12c614aa5af3624b06f7a74b8/";
+         this.url = "https://jbsaouzanet.github.io/jobylon-jobs-list/assets/jobslist.mock.json";
     }
 
     openModal(job) {
