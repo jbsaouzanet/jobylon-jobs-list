@@ -22,7 +22,7 @@ If you want to impress, feel free to put a special touch on the UI.
 
 ## Result
 
-App made in around 6/7 : it includes installation, development, testing and release on github page
+App made in around 6/7 hours, it includes installation, development, testing and release on github page
 View the result of the website at https://jbsaouzanet.github.io/jobylon-jobs-list/
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.2.0.
 
